@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcdbac6-a54f-4ed9-90bb-8ec346726047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Links.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OSTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VersionChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1bcdbac6-a54f-4ed9-90bb-8ec346726047" name="Changes" comment="Implemented: Reading version number from online file.">
+      <change afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NetIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbittiUSB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AbittiUSB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -42,8 +44,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,6 +76,13 @@
       <option name="presentableId" value="Default" />
       <updated>1675958531214</updated>
     </task>
+    <task id="LOCAL−00001" summary="Implemented: Reading version number from online file.">
+      <created>1675963800978</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1675963800978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented: Reading version number from online file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented: Reading version number from online file." />
   </component>
 </project>
