@@ -33,7 +33,7 @@ class VersionChecker {
         String latestVersion = null;
 
         try {
-            urlString = Links.versionInfo[osType];
+            urlString = OSInfo.DATA[osType][OSInfo.FIELD_VERSION_INFO_LINK];
             url = new URL(urlString);
             scanner = new Scanner(url.openStream());
             latestVersion = scanner.nextLine();

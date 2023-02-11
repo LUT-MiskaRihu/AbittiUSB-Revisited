@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcdbac6-a54f-4ed9-90bb-8ec346726047" name="Changes" comment="Implemented: Reading version number from online file.">
-      <change afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NetIO.java" afterDir="false" />
+    <list default="true" id="1bcdbac6-a54f-4ed9-90bb-8ec346726047" name="Changes" comment="Implemented universal downloader in NetIO class.&#10;Cleaned imports.">
+      <change afterPath="$PROJECT_DIR$/src/OSInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbittiUSB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AbittiUSB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Downloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NetIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NetIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VersionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VersionChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +81,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1675963800978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Implemented universal downloader in NetIO class.&#10;Cleaned imports.">
+      <created>1676118663612</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1676118663612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented: Reading version number from online file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented: Reading version number from online file." />
+    <MESSAGE value="Implemented universal downloader in NetIO class.&#10;Cleaned imports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented universal downloader in NetIO class.&#10;Cleaned imports." />
   </component>
 </project>
